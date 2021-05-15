@@ -1,8 +1,30 @@
 {
-  "name": "xmltv",
-  "description": "An XMLTV format reader",
-  "version": "0.3.0",
-  "homepage": "https://github.com/nice-shot/node-xmltv",
+  "_from": "github:efoxbr/node-xmltv",
+  "_id": "xmltv@0.3.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/xmltv",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "xmltv@github:efoxbr/node-xmltv",
+    "name": "xmltv",
+    "escapedName": "xmltv",
+    "rawSpec": "github:efoxbr/node-xmltv",
+    "saveSpec": "github:efoxbr/node-xmltv",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:efoxbr/node-xmltv#6d9a5a2c99b78788bb487b9aabf38dc5beedac6f",
+  "_spec": "xmltv@github:efoxbr/node-xmltv",
+  "_where": "J:\\PROJECTS\\MEGA2020-NW\\NWJS\\package.nw",
+  "bugs": {
+    "url": "https://github.com/nice-shot/node-xmltv/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Lionel Martin",
@@ -13,29 +35,13 @@
       "email": "shefferu@gmail.com"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/nice-shot/node-xmltv.git"
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "sax": "^1.2.4"
   },
-  "bugs": {
-    "url": "https://github.com/nice-shot/node-xmltv/issues"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/nice-shot/node-xmltv/blob/master/LICENSE-MIT"
-    }
-  ],
-  "main": "lib/xmltv",
-  "scripts": {
-    "test": "grunt",
-    "coverage": "istanbul cover test/xmltv_test.js"
-  },
-  "keywords": [
-    "xmltv",
-    "epg",
-    "television"
-  ],
+  "deprecated": false,
+  "description": "An XMLTV format reader",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-cli": "^0.1.13",
@@ -44,9 +50,27 @@
     "istanbul": "^0.3.14",
     "tape": "^4.0.0"
   },
-  "dependencies": {
-    "lodash": "^4.17.20",
-    "moment": "^2.29.1",
-    "sax": "^1.2.4"
-  }
+  "homepage": "https://github.com/nice-shot/node-xmltv",
+  "keywords": [
+    "xmltv",
+    "epg",
+    "television"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nice-shot/node-xmltv/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/xmltv",
+  "name": "xmltv",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nice-shot/node-xmltv.git"
+  },
+  "scripts": {
+    "coverage": "istanbul cover test/xmltv_test.js",
+    "test": "grunt"
+  },
+  "version": "0.3.0"
 }
